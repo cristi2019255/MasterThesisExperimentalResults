@@ -1,0 +1,14 @@
+------------------------------------------------------------------------------------------------
+Labels errors (pseudo-labels vs true labels): 388 / 2696 ( 14.39% )
+Classifier evaluation when trained with the true labels: loss: 0.5410 - accuracy: 85.64 - kappa score 0.8043
+Classifier evaluation when trained with the pseudo labels: loss: 0.3283 - accuracy: 87.89 - kappa score 0.8377
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+RESULTS:
+
+    DBM t-SNE:         'Accuracy': 86.76, 'Loss': 0.7162, 'Kappa': 0.8211 'Labels errors': 295 / 2696 ( 10.94% )
+
+    DBM t-SNE:          'Diff in accuracy': 1.13 'Improvement in accuracy': 1.12 'Diff in kappa': 0.0166 'Improvement in Kappa': 0.0168
+
+------------------------------------------------------------------------------------------------

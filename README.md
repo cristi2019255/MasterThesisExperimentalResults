@@ -39,6 +39,23 @@ This repository stores the Experimental Results for the Master Thesis of Grosu C
         - ...
     - protozoan_cysts (the results achieved when using the protozoan cysts data set)
       - user1_GrosuCristian (the results achieved by user 1)
-        - ...
+        - t-SNE
+          - plot_snapshots (the tool view after each usage iteration)
+            - date.png | date_revoked.png (this means this iteration was undone)
+          - refit-classifier (the classifier generated after the tool usage)
+          - classifier_accuracy.png (the classifier accuracy change over the iterations)
+          - classifier_kappa_score.png (the classifier Cohen's kappa score change over the iterations)
+          - label_changes.json (the label changes over the iterations)
+          - labels_result.npy (the labels after the tool usage)
+          - metadata.txt (additional data, statistics about the experiment)
       - user2_BarbaraBenato (the results achieved by user 2)
-        - ...
+        - t-SNE
+          - plot_snapshots (the tool view after each usage iteration)
+            - date.png | date_revoked.png (this means this iteration was undone)
+          - refit-classifier (the classifier generated after the tool usage)
+          - classifier_accuracy.png (the classifier accuracy change over the iterations)
+          - classifier_kappa_score.png (the classifier Cohen's kappa score change over the iterations)
+          - label_changes.json (the label changes over the iterations)
+          - labels_result.npy (the labels after the tool usage)
+          - metadata.txt (additional data, statistics about the experiment)
+      - comparison aggregates

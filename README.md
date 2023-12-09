@@ -63,6 +63,7 @@ This repository stores the Experimental Results for the Master Thesis of Grosu C
         - metadata_acc_improvement (shows how the accuracy of a classifier improved when different projection methods were involved)
         - metadata_kappa_improvement (shows how the Cohen kappa score of a classifier improved when different projection methods were involved)
     - protozoan_cysts (the results achieved when using the protozoan cysts data set)
+      - AuNN (the autoencoder used for feature extraction in the protozoan cysts experiments)
       - user1_GrosuCristian (the results achieved by user 1)
         - t-SNE
           - plot_snapshots (the tool view after each usage iteration)

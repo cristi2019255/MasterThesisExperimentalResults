@@ -4,7 +4,7 @@ This repository stores the Experimental Results for the Master Thesis of Grosu C
 
 ## Structure of this repository
 
-- experiments_results
+- experiments_results (results from the experimental sessions)
   - DBM_optimization_heuristics
     - hyperparamter_tunning
       - number_of_blocks_B
@@ -164,3 +164,6 @@ This repository stores the Experimental Results for the Master Thesis of Grosu C
           - labels_result.npy (the labels after the tool usage)
           - metadata.txt (additional data, statistics about the experiment)
       - comparison aggregates
+- explanatory assets (images that are used for explanation in the writing part of the thesis)
+  - nn_architectures (the visual representations of the neural network architectures we are using in the tool implementation and experiments)
+  - pipelines (several pipelines visual illustrations such as experimental and tool usage pipelines)

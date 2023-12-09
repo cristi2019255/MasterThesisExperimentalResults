@@ -1,0 +1,12 @@
+Num GPUs Available: 0
+Num CPUs Available: 1
+Num TPUs Available: 0
+
+
+
+RESOLUTION_RANGE: (100, 2000, 50)
+FAST_DECODING_STRATEGY: none
+
+
+
+Experiment resolutions_run_times took 3798.257201910019 seconds

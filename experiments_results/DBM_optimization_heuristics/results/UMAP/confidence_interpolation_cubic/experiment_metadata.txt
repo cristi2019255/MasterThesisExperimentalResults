@@ -1,0 +1,18 @@
+Num GPUs Available: 0
+Num CPUs Available: 1
+Num TPUs Available: 0
+
+
+
+RESOLUTION_RANGE: (50, 2000, 50)
+FAST_DECODING_STRATEGY: confidence_interpolation
+
+
+
+Experiment resolutions_run_times took 423.8298487663269 seconds
+Num GPUs Available: 0
+Num CPUs Available: 1
+Num TPUs Available: 0
+
+
+

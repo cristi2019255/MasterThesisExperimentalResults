@@ -1,0 +1,12 @@
+Num GPUs Available: 0
+Num CPUs Available: 1
+Num TPUs Available: 0
+
+
+
+RESOLUTION_RANGE: (100, 2000, 50)
+FAST_DECODING_STRATEGY: binary_split
+
+
+
+Experiment resolutions_run_times took 533.8211667537689 seconds

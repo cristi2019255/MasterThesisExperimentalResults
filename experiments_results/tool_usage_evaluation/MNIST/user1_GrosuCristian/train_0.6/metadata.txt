@@ -1,0 +1,23 @@
+
+------------------------------------------------------------------------------------------------
+Labels errors (pseudo-labels vs true labels): 478 / 2100 (22.76%)
+Classifier evaluation when trained with the true labels: loss: 0.4154 - accuracy: 89.60 - kappa score 0.8844
+Classifier evaluation when trained with the pseudo labels: loss: 0.6917 - accuracy: 79.87 - kappa score 0.7761
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+RESULTS:
+
+    SDBM Autoencoder:  'Accuracy': 83.53, 'Loss': 0.5782, 'Kappa': 0.8169 'Labels errors': 386 / 2100 ( 18.38% )
+    SDBM SSNP:         'Accuracy': 82.80, 'Loss': 0.5988, 'Kappa': 0.8087 'Labels errors': 354 / 2100 ( 16.86% )
+    DBM t-SNE:         'Accuracy': 86.27, 'Loss': 0.5157, 'Kappa': 0.8473 'Labels errors': 241 / 2100 ( 11.48% )
+    DBM UMAP:          'Accuracy': 86.67, 'Loss': 0.4676, 'Kappa': 0.8517 'Labels errors': 250 / 2100 ( 11.90% )
+    DBM PCA:           'Accuracy': 82.60, 'Loss': 0.6229, 'Kappa': 0.8065 'Labels errors': 418 / 2100 ( 19.90% )
+    
+
+    SDBM Autoencoder:   'Diff in accuracy': 6.07 'Improvement in accuracy': 3.66 'Diff in kappa': 0.0675 'Improvement in Kappa': 0.0408
+    SDBM SSNP:          'Diff in accuracy': 6.80 'Improvement in accuracy': 2.93 'Diff in kappa': 0.0757 'Improvement in Kappa': 0.0326 
+    DBM t-SNE:          'Diff in accuracy': 3.33 'Improvement in accuracy': 6.40 'Diff in kappa': 0.0371 'Improvement in Kappa': 0.0712 
+    DBM UMAP:           'Diff in accuracy': 2.93 'Improvement in accuracy': 6.80 'Diff in kappa': 0.0327 'Improvement in Kappa': 0.0756 
+    DBM PCA:            'Diff in accuracy': 7.00 'Improvement in accuracy': 2.73 'Diff in kappa': 0.0779 'Improvement in Kappa': 0.0304 
+------------------------------------------------------------------------------------------------

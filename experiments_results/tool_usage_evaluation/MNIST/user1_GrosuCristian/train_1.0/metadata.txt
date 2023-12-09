@@ -1,0 +1,27 @@
+
+------------------------------------------------------------------------------------------------
+Labels errors (pseudo-labels vs true labels): 792 / 3500 (22.62%)
+Classifier evaluation when trained with the true labels: loss: 0.3800 - accuracy: 89.47 - kappa score 0.8829
+Classifier evaluation when trained with the pseudo labels: loss: 0.7518 - accuracy: 75.40 - kappa score 0.7266
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+RESULTS:
+
+    SDBM Autoencoder:  'Accuracy': 81.40, 'Loss': 0.6148, 'Kappa': 0.7932 'Labels errors': 651 / 3500 ( 18.60% )
+    SDBM SSNP:         'Accuracy': 78.60, 'Loss': 0.6904, 'Kappa': 0.7621 'Labels errors': 713 / 3500 ( 20.37% )
+    DBM t-SNE:         'Accuracy': 88.67, 'Loss': 0.4210, 'Kappa': 0.8740 'Labels errors': 325 / 3500 ( 9.29% )
+    DBM UMAP:          'Accuracy': 86.33, 'Loss': 0.4775, 'Kappa': 0.8481 'Labels errors': 432 / 3500 ( 12.34% )
+    DBM PCA:           'Accuracy': 76.20, 'Loss': 0.7224, 'Kappa': 0.7355 'Labels errors': 771 / 3500 ( 22.03% )
+    
+
+    SDBM Autoencoder:   'Diff in accuracy': 8.07  'Improvement in accuracy': 6.00  'Diff in kappa': 0.0897 'Improvement in Kappa': 0.0666
+    SDBM SSNP:          'Diff in accuracy': 10.87 'Improvement in accuracy': 3.20  'Diff in kappa': 0.1208 'Improvement in Kappa': 0.0355
+    DBM t-SNE:          'Diff in accuracy': 0.80  'Improvement in accuracy': 13.27 'Diff in kappa': 0.0089 'Improvement in Kappa': 0.1474
+    DBM UMAP:           'Diff in accuracy': 3.14  'Improvement in accuracy': 10.93 'Diff in kappa': 0.0348 'Improvement in Kappa': 0.1215 
+    DBM PCA:            'Diff in accuracy': 13.27 'Improvement in accuracy': 0.80  'Diff in kappa': 0.1472 'Improvement in Kappa': 0.0089
+ 
+------------------------------------------------------------------------------------------------
+
+Diff in accuracy: How much we still have till reacing the best accuracy possible (when trained with ground truth lables)
+Diff in kappa: How much we still have till reacing the best kappa possible (when trained with ground truth labels)

@@ -34,9 +34,34 @@ This repository stores the Experimental Results for the Master Thesis of Grosu C
   - tool_usage_evaluation
     - MNIST (the results when using the MNIST data set)
       - user1_GrosuCristian (the results achieved by user 1)
-        - ...
+        - train_0.2
+          - DBM_PCA
+            - plot_snapshots (the tool view after each usage iteration)
+              - date.png | date_revoked.png (this means this iteration was undone)
+            - refit-classifier (the classifier generated after the tool usage)
+            - classifier_accuracy.png (the classifier accuracy change over the iterations)
+            - classifier_kappa_score.png (the classifier Cohen's kappa score change over the iterations)
+            - classifier_performance.log (the classifier performance over the iterations)
+            - label_changes.json (the label changes over the iterations)
+            - labels_result.npy (the labels after the tool usage)
+          - DBM_tSNE
+          - DBM_UMAP
+          - SDBM_autoencoder
+          - SDBM_ssnp
+        - train_0.4
+        - train_0.6
+        - train_0.8
+        - train_1.0
+        - metadata_acc_improvement (shows how the accuracy of a classifier improved when different projection methods were involved)
+        - metadata_kappa_improvement (shows how the Cohen kappa score of a classifier improved when different projection methods were involved)
       - user2_BarbaraBenato (the results achieved by user 2)
-        - ...
+        - train_0.2
+        - train_0.4
+        - train_0.6
+        - train_0.8
+        - train_1.0
+        - metadata_acc_improvement (shows how the accuracy of a classifier improved when different projection methods were involved)
+        - metadata_kappa_improvement (shows how the Cohen kappa score of a classifier improved when different projection methods were involved)
     - protozoan_cysts (the results achieved when using the protozoan cysts data set)
       - user1_GrosuCristian (the results achieved by user 1)
         - t-SNE
@@ -45,6 +70,7 @@ This repository stores the Experimental Results for the Master Thesis of Grosu C
           - refit-classifier (the classifier generated after the tool usage)
           - classifier_accuracy.png (the classifier accuracy change over the iterations)
           - classifier_kappa_score.png (the classifier Cohen's kappa score change over the iterations)
+          - classifier_performance.log (the classifier performance over the iterations)
           - label_changes.json (the label changes over the iterations)
           - labels_result.npy (the labels after the tool usage)
           - metadata.txt (additional data, statistics about the experiment)
@@ -55,6 +81,7 @@ This repository stores the Experimental Results for the Master Thesis of Grosu C
           - refit-classifier (the classifier generated after the tool usage)
           - classifier_accuracy.png (the classifier accuracy change over the iterations)
           - classifier_kappa_score.png (the classifier Cohen's kappa score change over the iterations)
+          - classifier_performance.log (the classifier performance over the iterations)
           - label_changes.json (the label changes over the iterations)
           - labels_result.npy (the labels after the tool usage)
           - metadata.txt (additional data, statistics about the experiment)
